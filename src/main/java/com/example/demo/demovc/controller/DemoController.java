@@ -8,6 +8,6 @@ public class DemoController {
 
     @GetMapping("/greet")
     public String hello(@RequestParam String firstName){
-        return "Hello World from Azure GitHub:" + firstName; 
+        return "Hello World from Azure GitHub Message Updated:" + firstName; 
     }
 }
